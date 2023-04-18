@@ -1,0 +1,146 @@
+.music-playlist-container {
+  background-size: cover;
+}
+.top-section {
+  height: 50vh;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #ffffff;
+}
+.singer {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 70vh;
+  width: 100%;
+  background-color: #152850;
+  padding: 20px;
+  padding-right: 20px;
+}
+.songs-playlist-search-container {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.songs-playlist {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button {
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+}
+.search-container {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 6px;
+}
+.search-element {
+  height: 100%;
+  width: 80%;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+}
+.search-icon {
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+.playlist {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+.main-playlist {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0px;
+}
+.image {
+  height: 100%;
+  width: 20%;
+}
+.name-genre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+.name1 {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.genre {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #3b82f6;
+}
+.duration-delete {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+}
+.duration {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.delete-icon {
+  color: #ffffff;
+}
+.playlist-container {
+  overflow-y: scroll;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.no-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 60vh;
+}
+.no-found-paragraph {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Roboto;
+}
